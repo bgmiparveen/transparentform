@@ -1,0 +1,58 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    width: 305px;
+    height: 270px;
+    color: white;
+    position: absolute;
+    top: 31%;
+    left: 37%;
+}
+h1{
+    font-weight: bold;
+    display: inline-block;
+    width: 40%;
+    margin: 29px 2px;
+    padding: 2px 2px;
+    border-bottom: 5px solid purple;
+}
+.box{
+    margin: 17px 2px;
+    padding: 2px 2px;
+    
+    border-bottom: 2px solid purple;
+}
+.box input{
+    width: 70%;
+    font-size: 16px;
+    margin: 2px 8px;
+    outline: none;
+    background: none;
+    border: none;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+}
+.btn{
+    border-radius: 11px;
+    border: 2px solid purple;
+    height: 35px;
+    width: 70px;
+    background: none;
+    color: white;
+margin-top: 8px;
+}
+.btn:hover{
+    color: purple;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
